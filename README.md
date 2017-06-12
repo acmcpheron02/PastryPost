@@ -1,0 +1,1 @@
+This project is developed for practice as part of Code Louisville's Front End Web Development course. It does not represent a real business or service in any way, though I suppose it would be nice if this service existed in my area.
