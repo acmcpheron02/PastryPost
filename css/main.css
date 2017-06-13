@@ -1,9 +1,14 @@
-
-
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
 
+/* Jumbotron Styling*/
+#hero_jumbotron {
+    background-color: 
+    background-size: cover;
+    color: #DDD;
+    text-shadow: 2px 2px rgba(0, 0, 0, .75);
+}
 
 
 
