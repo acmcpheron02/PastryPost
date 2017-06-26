@@ -1,18 +1,48 @@
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/* Universal Stying Classes
+Based on http://www.colourlovers.com/palette/1597233/500_honies */
 
-/* Jumbotron Styling*/
-#hero_jumbotron {
-    background-color: 
-    background-size: cover;
-    color: #DDD;
-    text-shadow: 2px 2px rgba(0, 0, 0, .75);
+html {
+    box-sizing: border-box;
+    font-size: 20px;
 }
 
+.c-bkgd-1 {
+    background-color: #FDF1CC;
+}
 
+.c-bkgd-2 {
+    background-color: #dcedcb;
+}
 
+.font-header {
+    color: #FCD036;
+    font-family: 'Bungee Inline', cursive;
+    text-shadow: 1px 1px rgba(66, 40, 29, .75);
+    
+}
 
+.font-lead {
+    color: #E3AD40;
+    font-family: 'Bungee', cursive;
+    text-shadow: 1px 1px rgba(66, 40, 29, .40);
+}
+
+.font-body {
+    color: #E3AD40;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    /*text-shadow: 1px 1px rgba(66, 40, 29, .40);*/
+}
+
+.btn-primary {
+    background-color: #FCD036;
+    border-color: rgba(66, 40, 29);
+    color: rgba(66, 40, 29);
+    font-family: 'Bungee', cursive;
+}
 
 
 
