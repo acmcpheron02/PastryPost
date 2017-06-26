@@ -9,37 +9,37 @@ html {
 }
 
 .c-bkgd-1 {
-    background-color: #FDF1CC;
+    background-color: #EEE;
 }
 
 .c-bkgd-2 {
-    background-color: #dcedcb;
+    background-color: #DDD;
 }
 
 .font-header {
-    color: #FCD036;
+    color: #111;
     font-family: 'Bungee Inline', cursive;
     text-shadow: 1px 1px rgba(66, 40, 29, .75);
     
 }
 
 .font-lead {
-    color: #E3AD40;
+    color: #111;
     font-family: 'Bungee', cursive;
     text-shadow: 1px 1px rgba(66, 40, 29, .40);
 }
 
 .font-body {
-    color: #E3AD40;
+    color: #222;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     /*text-shadow: 1px 1px rgba(66, 40, 29, .40);*/
 }
 
 .btn-primary {
-    background-color: #FCD036;
-    border-color: rgba(66, 40, 29);
-    color: rgba(66, 40, 29);
+    background-color: #CCC;
+    border-color: #222;
+    color: #111;
     font-family: 'Bungee', cursive;
 }
 
