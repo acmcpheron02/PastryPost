@@ -1,4 +1,4 @@
-Based on http://www.colourlovers.com/palette/1597233/500_honies */
+/* Based on http://www.colourlovers.com/palette/1597233/500_honies */
 
 html {
     box-sizing: border-box;
@@ -45,3 +45,39 @@ html {
 
 /* --- Table Styling --- */
 
+#pastry_menu {
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    border-spacing: 0.5rem;
+}
+
+#pastry_menu tr{
+    text-align: left;
+    border: 1px solid #999;
+}
+
+#pastry_menu td{
+    border: 1px solid #999;
+}
+
+#pastry_menu td:first-of-type {
+    width: 75%;
+}
+
+#pastry_menu td:last-of-type {
+    width: 25%;
+}
+
+.table_header {
+    background-color: #926;
+}
+
+.table_section {
+    color: #111;
+    font-weight: bold;
+}
+
+.table_toggle {
+    color: #333;
+    font-weight: lighter;
+}
