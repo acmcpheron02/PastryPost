@@ -51,6 +51,10 @@ html {
     border-color: #285e8e; /*set the color you want here*/
 }
 
+.bottom_space {
+    margin-bottom: 1REM;
+}
+
 /* --- Google Maps Styling --- */
 .map-sizing {
     width: 100%;
