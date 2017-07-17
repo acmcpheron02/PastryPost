@@ -1,132 +1,153 @@
 <!doctype html>
 <html class="no-js" lang="">
+
 <head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<title>The Pastry Post</title>
-<meta name="description" content="morning delivery service for donuts">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>The Pastry Post</title>
+  <meta name="description" content="morning delivery service for donuts">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<link rel="stylesheet" href="css/bootstrap.min.css">
-<link rel="stylesheet" href="css/bootstrap-theme.min.css">
-<link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="css/main.css">
 
-<link href="https://fonts.googleapis.com/css?family=Bungee|Bungee+Inline|Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Bungee|Bungee+Inline|Roboto" rel="stylesheet">
 
-<script src="js/vendor/modernizr-2.8.3.min.js"></script>
+  <script src="js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
 
-<body class='c-bkgd-1 container'>
-  <!--[if lt IE 8]>
+<body class='c-bkgd-1'>
+  <div class='container-fluid'>
+    <!--[if lt IE 8]>
   <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
   <![endif]-->
-  
-<div class="jumbotron c-bkgd-1 col-12">
-  <h1 class="display-3 font-header text-center">The Pastry Post</h1>
-  <p class="lead font-lead text-center">Tasty treats to your door, first thing in the morning</p>
-  <hr class="my-4">
-  <p class="font-body text-center">Get 50% off your first order and make waking up a little sweeter.</p>
-  <p class="lead text-center">
-    <a class="btn btn-primary btn-lg" href="#" role="button">Order Here!</a>
-  </p>
-</div>
-<div id="three_col_layout" class="row">
-  
-  <div class="text-center col-md-4">
-    <h3 class="display-5 font-lead">Happy to serve the Louisville Metro</h4>
-    <a class="card-img-top" href="https://www.google.com/maps/place/38.245963,+-85.756816/">
-    <img class="map-sizing" src="https://maps.googleapis.com/maps/api/staticmap?center=38.245963,+-85.756816&zoom=13&scale=1&size=600x600&maptype=terrain&key=AIzaSyBcUTLQe5PSz9rkcHrQDnHAmLNU2rxz4ac&format=png&visual_refresh=true" alt="Google Map of 38.245963, -85.756816
-    path=color:0x00000000|weight:5|fillcolor:0xFFFF0033|8th+Avenue+%26+34th+St,New+York,NY|\
-8th+Avenue+%26+42nd+St,New+York,NY|Park+Ave+%26+42nd+St,New+York,NY,NY|\
-Park+Ave+%26+34th+St,New+York,NY,NY"></a>
-    <p class="card-text font-body">Serving locations both in Kentucky and Indiana. Click below to check if we deliver to your neighborhood</p>
-    <a href="#" class="btn btn-primary mx-auto">Delivery Areas</a>
+
+    <!--Jumbotron Header HTML-->
+    <div id="jumbotron_heading" class="jumbotron c-bkgd-2 col-12">
+      <h1 class="display-3 font-header text-center">The Pastry Post</h1>
+      <p class="lead font-lead text-center">Tasty treats to your door, first thing in the morning</p>
+      <hr class="my-4">
+      <p class="font-body text-center">Get 50% off your first order and make waking up a little sweeter.</p>
+      <p class="lead text-center">
+        <a class="btn btn-primary btn-lg inactive" href="#" role="button">order here</a>
+      </p>
+    </div>
   </div>
 
-  <div class="text-center col-md-4">
-    <h3 class="display-5 font-lead">Available offerings</h4>
-    <table id="pastry_menu">
-      <tr class="table_header">
-        <th class="table_section">Hot Donuts</th>
-        <th class="table_toggle">Hide</th>
-      </tr>
-      <tr>
-        <td>Original Glazed</td>
-        <td>1.00</td>
-      </tr>
-      <tr>
-        <td>Chocolate</td>
-        <td>1.25</td>
-      </tr>
-      <tr>
-        <td>Glueberry</td>
-        <td>1.25</td>
-      </tr>
-      <tr>
-        <td>Red Velvet</td>
-        <td>1.50</td>
-      </tr>
-      <tr>
-        <td>Sriracha</td>
-        <td>1.50</td>
-      </tr>
-      <tr class="table_header">
-        <th class="table_section">Flavorful Scones</th>
-        <th class="table_toggle">Hide</th>
-      </tr>
-      <tr>
-        <td>Strawberry</td>
-        <td>2.00</td>
-      </tr>
-      <tr>
-        <td>Goat</td>
-        <td>3.00</td>
-      </tr>
-      <tr>
-        <td>Vanilla and Honey</td>
-        <td>2.25</td>
-      </tr>
-      <tr>
-        <td>Apple Cinnamon</td>
-        <td>2.00</td>
-      </tr>
-      <tr class="table_header">
-        <th class="table_section">Free-range Muffins</th>
-        <th class="table_toggle">Hide</th>
-      </tr>
-      <tr>
-        <td>Teriyaki Chicken</td>
-        <td>3.50</td>
-      </tr>
-      <tr>
-        <td>Blackberry</td>
-        <td>3.00</td>
-      </tr>
-      <tr>
-        <td>Pangalactic Gargleblaster</td>
-        <td>4.50</td>
-      </tr>
-      <tr>
-        <td>Coffee Cake</td>
-        <td>4.00</td>
-      </tr>
-    </table>
+  <!--Start New Container for Bootstrap-->
+  <div class="container-fluid">
+    <div id="three_col_layout" class="row justify-content-center">
+
+      <!--Google Maps Column HTML-->
+      <div class="col-md-4 text-center">
+        <div class="c-bkgd-2 rounded">
+          <h3 class="display-5 font-lead">Happy to serve the Louisville Metro</h3>
+            <a class="card-img-top" href="https://www.google.com/maps/place/38.245963,+-85.756816/">
+          <img class="map-sizing" src="https://maps.googleapis.com/maps/api/staticmap?center=38.245963,+-85.756816&zoom=13&scale=1&size=600x600&maptype=terrain&key=AIzaSyBcUTLQe5PSz9rkcHrQDnHAmLNU2rxz4ac&format=png&visual_refresh=true" alt="Google Map of 38.245963, -85.756816
+          path=color:0x00000000|weight:5|fillcolor:0xFFFF0033|8th+Avenue+%26+34th+St,New+York,NY|\
+      8th+Avenue+%26+42nd+St,New+York,NY|Park+Ave+%26+42nd+St,New+York,NY,NY|\
+      Park+Ave+%26+34th+St,New+York,NY,NY"></a>
+            <p class="card-text font-body">Serving locations in both Kentucky and Indiana. Click below to check if we deliver to your neighborhood</p>
+            <a href="#" class="btn btn-primary mx-auto inactive">find a route</a>
+        </div>
+      </div>
+
+      <!--Pastry Menu Column HTML-->
+      <div class="col-md-4 text-center">
+        <div class="c-bkgd-2 rounded">
+          <h3 class="display-5 font-lead">Available offerings</h3>
+          <table id="pastry_menu">
+            <tr class="table_header">
+              <th class="table_section">Hot Donuts</th>
+              <th class="table_toggle">Hide</th>
+            </tr>
+            <tr>
+              <td>Original Glazed</td>
+              <td>1.00</td>
+            </tr>
+            <tr>
+              <td>Chocolate</td>
+              <td>1.25</td>
+            </tr>
+            <tr>
+              <td>Glueberry</td>
+              <td>1.25</td>
+            </tr>
+            <tr>
+              <td>Red Velvet</td>
+              <td>1.50</td>
+            </tr>
+            <tr>
+              <td>Sriracha</td>
+              <td>1.50</td>
+            </tr>
+            <tr class="table_header">
+              <th class="table_section">Flavorful Scones</th>
+              <th class="table_toggle">Hide</th>
+            </tr>
+            <tr>
+              <td>Strawberry</td>
+              <td>2.00</td>
+            </tr>
+            <tr>
+              <td>Goat</td>
+              <td>3.00</td>
+            </tr>
+            <tr>
+              <td>Vanilla and Honey</td>
+              <td>2.25</td>
+            </tr>
+            <tr>
+              <td>Apple Cinnamon</td>
+              <td>2.00</td>
+            </tr>
+            <tr class="table_header">
+              <th class="table_section">Free-range Muffins</th>
+              <th class="table_toggle">Hide</th>
+            </tr>
+            <tr>
+              <td>Teriyaki Chicken</td>
+              <td>3.50</td>
+            </tr>
+            <tr>
+              <td>Blackberry</td>
+              <td>3.00</td>
+            </tr>
+            <tr>
+              <td>Pangalactic Gargleblaster</td>
+              <td>4.50</td>
+            </tr>
+            <tr>
+              <td>Coffee Cake</td>
+              <td>4.00</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+
+      <!--"About us" Column HTML-->
+      <div class="col-md-4 text-center">
+        <div class="c-bkgd-2 rounded">
+          <h3 class="display-5 font-lead ">How it works</h3>
+          <p class="font-body"> Our business thrives on efficiency. We organize our orders into routes, combining close addresses and times into
+            one trip. Every order on your route lowers the price of each other order! Become your street's favorite neighbor
+            with our referral program.</p>
+          <a class="btn btn-primary btn-lg inactive" href="#" role="button">join in</a>
+        </div>
+      </div>
+    </div>
   </div>
 
-  <div class="text-center col-md-4">
-    <h3 class="display-5 font-lead ">How it works</h2>
-    <p class="font-body"> Our business thrives on efficiency. We organize our orders into routes, combining close addresses and times into one trip. Every order on your route lowers the price of each other order! Become your street's favorite neighbor with our referral program.</p>
-    <a class="btn btn-primary btn-lg" href="#" role="button">Build your route</a>
-  </div>
-
-</div> 
-<!--JQuery-->
+  <!--JQuery-->
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-  <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+  <script>
+    window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')
+  </script>
 
-<!--Bootstrap v4 alpha-6-->
+  <!--Bootstrap v4 alpha-6-->
   <script src="js/vendor/bootstrap.min.js"></script>
-
   <script src="js/main.js"></script>
+
 </body>
 </html>

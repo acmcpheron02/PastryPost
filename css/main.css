@@ -1,22 +1,28 @@
-/* Based on http://www.colourlovers.com/palette/1597233/500_honies */
+/* --- Universal Stylings --- */
 
 html {
     box-sizing: border-box;
 }
 
+#jumbotron_heading {
+    margin-top: 1REM;
+}
+
 .c-bkgd-1 {
-    background-color: #EEE;
+    background-color: #fef8e7;
 }
 
 .c-bkgd-2 {
-    background-color: #DDD;
+    background-color: #FDF1CC;
+    padding: 6px;
+    border: 3px solid #312502;
+    height: 100%;
 }
 
 .font-header {
     color: #111;
     font-family: 'Bungee Inline', cursive;
     text-shadow: 1px 1px rgba(66, 40, 29, .75);
-    
 }
 
 .font-lead {
@@ -33,12 +39,19 @@ html {
 }
 
 .btn-primary {
-    background-color: #CCC;
-    border-color: #222;
-    color: #111;
+    color: #333;
+    background-color: #33cccc;
+    border-color: #285e8e; 
     font-family: 'Bungee', cursive;
 }
 
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active{
+    color: #DFF;
+    background-color: #33cccc;
+    border-color: #285e8e; /*set the color you want here*/
+}
+
+/* --- Google Maps Styling --- */
 .map-sizing {
     width: 100%;
 }
@@ -69,7 +82,7 @@ html {
 }
 
 .table_header {
-    background-color: #926;
+    background-color: #33cccc;
 }
 
 .table_section {
@@ -80,4 +93,8 @@ html {
 .table_toggle {
     color: #333;
     font-weight: lighter;
+}
+
+.table_toggle:hover {
+    color: #DFF;
 }
