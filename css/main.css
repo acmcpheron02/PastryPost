@@ -34,7 +34,7 @@ html {
 .font-body {
     color: #222;
     font-family: 'Roboto', sans-serif;
-    font-weight: bold;
+    font-weight: 500;
     /*text-shadow: 1px 1px rgba(66, 40, 29, .40);*/
 }
 
@@ -58,6 +58,7 @@ html {
 /* --- Google Maps Styling --- */
 .map-sizing {
     width: 100%;
+    margin-bottom: 6px;
 }
 
 /* --- Table Styling --- */
